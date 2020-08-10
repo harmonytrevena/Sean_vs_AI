@@ -108,6 +108,7 @@ screen.blit(introImg,(0,0))
 pygame.display.update()
 pause_get_key()
 
+
 #Start the game
 while running:    
 
@@ -163,7 +164,7 @@ while running:
         print(x)
         #screen.fill(BLACK_BACKGROUND)
         #Background Image
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         while True:
             message_display([f"D4v1d_AI: I got the first code, try {level_arr[x].secret_code}"])
             user_input = ask(screen, "Enter Secret Code")
@@ -171,7 +172,7 @@ while running:
                 message_display(["CORRECT!!", "Press [ENTER] to access computer"])
                 pause_get_key()
                 break
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         for questions in range(len(questions_array[x])):
             while True:
                 message_display(questions_array[x][questions].question)
@@ -179,8 +180,8 @@ while running:
                 if user_input == questions_array[x][questions].answer:
                     # screen.blit(pygame.image.load('computer_screen.png'),(0,0))
                     break
-            screen.blit(pygame.image.load('computer_screen.png'),(0,0))
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+            screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         message_display(["You unlocked this computer!!","The next code is " + level_arr[x+1].secret_code])
         first_comp = True    
         pause_get_key()
@@ -193,7 +194,7 @@ while running:
         print(x)
         screen.fill(BLACK_BACKGROUND)
         #Background Image
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         #show_text(132,21)
         while True:
             user_input = ask(screen, "Enter Secret Code")
@@ -201,17 +202,17 @@ while running:
                 message_display(["CORRECT!!", "Press [ENTER] to access computer"])
                 pause_get_key()
                 break
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         for questions in range(len(questions_array[x])):
             while True:
                 message_display(questions_array[x][questions].question)
                 user_input = ask(screen, questions_array[x][questions].prompt)
                 if user_input == questions_array[x][questions].answer:
-                    screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+                    screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
                     message_display(["Woot Woot"])
                     break
-            screen.blit(pygame.image.load('computer_screen.png'),(0,0))
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+            screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         message_display(["You unlocked this computer!!","The next code is " + level_arr[x+1].secret_code])    
         pause_get_key()
         second_comp = True
@@ -224,7 +225,7 @@ while running:
         print(x)
         screen.fill(BLACK_BACKGROUND)
         #Background Image
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         #show_text(132,21)
         while True:
             user_input = ask(screen, "Enter Secret Code")
@@ -232,17 +233,17 @@ while running:
                 message_display(["CORRECT!!", "Press [ENTER] to access computer"])
                 pause_get_key()
                 break
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         for questions in range(len(questions_array[x])):
             while True:
                 message_display(questions_array[x][questions].question)
                 user_input = ask(screen, questions_array[x][questions].prompt)
                 if user_input == questions_array[x][questions].answer:
-                    screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+                    screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
                     message_display(["Woot Woot"])
                     break
-            screen.blit(pygame.image.load('computer_screen.png'),(0,0))
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+            screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         message_display(["You unlocked this computer!!","The next code is " + level_arr[x+1].secret_code])    
         pause_get_key()
         third_comp = True
@@ -255,7 +256,7 @@ while running:
         print(x)
         screen.fill(BLACK_BACKGROUND)
         #Background Image
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         #show_text(132,21)
         while True:
             user_input = ask(screen, "Enter Secret Code")
@@ -263,17 +264,17 @@ while running:
                 message_display(["CORRECT!!", "Press [ENTER] to access computer"])
                 pause_get_key()
                 break
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         for questions in range(len(questions_array[x])):
             while True:
                 message_display(questions_array[x][questions].question)
                 user_input = ask(screen, questions_array[x][questions].prompt)
                 if user_input == questions_array[x][questions].answer:
-                    screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+                    screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
                     message_display(["Woot Woot"])
                     break
-            screen.blit(pygame.image.load('computer_screen.png'),(0,0))
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+            screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         message_display(["You unlocked this computer!!","The next code is 42","Enemy AI Brain revealed!!"])    
         pause_get_key()
         fourth_comp = True
@@ -286,7 +287,7 @@ while running:
         x = 4
         print(x)
         #Background Image
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         #show_text(132,21)
         while True:
             user_input = ask(screen, "Enter Secret Code")
@@ -294,16 +295,16 @@ while running:
                 message_display(["CORRECT!!","For it is truly the answer to the universe", "Press [ENTER] to access the enemy AI Brain"])
                 pause_get_key()
                 break
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         for questions in range(len(questions_array[x])):
             while True:
                 message_display(questions_array[x][questions].question)
                 user_input = ask(screen, questions_array[x][questions].prompt)
                 if user_input == questions_array[x][questions].answer:
-                    screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+                    screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
                     break
-            screen.blit(pygame.image.load('computer_screen.png'),(0,0))
-        screen.blit(pygame.image.load('computer_screen.png'),(0,0))
+            screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
+        screen.blit(pygame.image.load('./images/computer_screen.png'),(0,0))
         message_display(["You have defeated the evil AI and restored DigitalCrafts!!", "Press [ENTER] to destroy the AI!!"])
         pause_get_key()
         running = False
@@ -320,8 +321,8 @@ while running:
         playerY = 0 
     elif playerY >= 345:
         playerY = 345
-   
- 
+
+
 
 
     #function to display computer and player if the player is not on the computer
@@ -341,7 +342,6 @@ while running:
             narration_box.message_display(["D4v1d_AI: You will need to use your", "prework skills to get the system back up.","Proceed upstairs to fix the first computer."])
             pause_get_key()
             first_run = False
-            
         if first_comp:
             screen.blit(text_box_image,(0,0))
             narration_box.message_display(["D4v1d_AI: Well Done. ","You've unlocked the first computer.", "Head downstairs to unlock the second computer."])
@@ -363,7 +363,7 @@ while running:
             narration_box.message_display(["David_AI: You're crushing it!!","You've unlocked the third computer!!"])
             pause_get_key()
             screen.blit(text_box_image,(0,0))
-            narration_box.message_display([" The AI is hiding in another computer.", "Head to the fourth computer to continue."])
+            narration_box.message_display(["The AI is hiding in another computer.", "Head to the fourth computer to continue."])
             pause_get_key()
             third_comp = False
         if fourth_comp:
@@ -385,3 +385,4 @@ while True:
     pygame.display.update()
     pause_get_key()
     break
+
