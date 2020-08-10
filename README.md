@@ -1,4 +1,4 @@
-## Seam Vs Ai 
+## Sean Vs AI 
 Sean is the master coder who has a date with destiny or the evil Ai who is trying to hack into DigitalCrafts. Sean is receiving help from David to defeat the evil Ai to save DigitalCrafts.
 
 ## Motivation behind the game 
@@ -11,6 +11,8 @@ To create a game that was inviting to entry level programmers who are familiar w
 
 ## Design evolution
 ![](/ReadmePNG/design.png)
+
+
 ![](/ReadmePNG/final_design.png)
 
 
