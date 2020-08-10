@@ -10,8 +10,8 @@ To create a game that was inviting to entry level programmers who are familiar w
 * Canva
 
 ## Design evolution
-!(/ReadmePNG/design.png)
-!(/ReadmePNG/final_design.png)
+![](/ReadmePNG/design.png)
+![](/ReadmePNG/final_design.png)
 
 
 
