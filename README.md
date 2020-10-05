@@ -18,7 +18,6 @@ To create a game that was inviting to entry level programmers who are familiar w
 
 
 ## Installation
-* Clone repo from Installation
 * Clone repo from https://github.com/harmonytrevena/Sean_vs_AI
 * Run main.py in your terminal
 
